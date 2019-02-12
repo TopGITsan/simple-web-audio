@@ -1,0 +1,32 @@
+.playing {
+    background-color: orangered;
+}
+
+.stopped {
+    background-color: olivedrab;
+}
+
+.paused {
+    background-color: olivedrab;
+}
+
+button{
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    padding: 5px 20px;
+}
+
+button:hover {
+    outline: 1px solid white;
+    -moz-outline-radius: 10px;
+    -webkit-outline-radius: 10px;
+}
+
+label {
+    font-size: 1.5em;
+    margin-right: 1.7em;
+}
+

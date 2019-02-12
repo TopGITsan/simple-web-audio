@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>simple Web Audio</title>
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+            crossorigin="anonymous">
+        <!-- personal styles -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body class="bg-dark">
+        <main class="container bg-secondary text-light">
+            <div class="row text-center">
+                    <div class='col-10 mx-auto my-3 text-center text-capitalize'>
+                    <h1>A simple web audio</h1>
+                </div>
+                <div class='col-10 mx-auto my-3 text-center'>
+                    <!-- audio element -->
+                    <h5 class="text-capitalize">Forever and a day</h5>
+                    <audio src="./Forever And A Day.mp3"></audio>
+                </div>
+                <div class='col-10 mx-auto my-3 text-center'>
+                    <!-- button to stop and play music -->
+                    <h6>push the button</h6>
+                    <button class="paused">Play</button>
+                </div>
+                <div class='col-10 mx-auto my-3 text-center'>
+                    <!-- adjust the volume while playing -->
+                    <label for='vol'>Volume: </label>
+                    <input id='vol' type="range" min="0" max="1" step="0.01" value="1" class="volume">
+                </div>
+                <script src="main.js"></script>
+            </div>
+        </main>
+    </body>
+</html>
